@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+.header{
+    height: 100px;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.letter{
+    padding: 7px;
+    font-size: 2rem;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.letter1{
+background-color: aqua;
+border-radius: 5px;
+
+}
+.letter2{
+    background-color: rgb(157, 212, 4);
+    border-radius: 5px;
+ }
+ .letter3{
+    background-color: rgb(6, 212, 57);
+    border-radius: 5px;
+
+    }
+    .letter4{
+        background-color: rgb(194, 79, 2);
+    border-radius: 5px;
+
+        }
+        .letter5{
+            background-color: rgb(255, 0, 55);
+    border-radius: 5px;
+
+        }
+        .letter6{
+     color: white;
+     font-weight: 900;
+
+        }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+        background-image: url(bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: centers;
+    font-family: system-ui;
+}
+
+.center h2{
+    font-size: 3rem;
+    font-family: system-ui;
+    font-weight: 400;
+}
+
+.center p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: system-ui;
+
+}
+.seartch{
+    margin-top: 20px;
+}
+.seartch input{
+    font-size: 1rem;
+    padding: 5px 10px;
+    width: 500px;
+    border: 2px solid rgb(6, 212, 57);
+}
+.seartch button{
+    font-size: 1rem;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.seartch button:hover{
+    background-color: rgb(255 162 49);
+    transition: all 0.3s linear;
+    color: white;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 1px solid gray;
+}
+.item{
+    list-style: none;
+}
+
+.item a{
+    font-size: 1rem;
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:rgb(46, 45, 45) ;
+}
+.item a:hover{
+    border-bottom: 2px solid rgb(46, 45, 45);    
+}
+
+.Books{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-trim: 10px;
+
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(179, 14, 14, 0.897);
+}
+.book{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.dd{
+    display: block;
+    font-size: 1rem;
+    padding: 5px 80px;
+    background-color: #0195d7;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+}
